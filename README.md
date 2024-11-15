@@ -2,7 +2,7 @@
 Этот проект показывает PoC как может специалист red team использовать возможности 1С для получение доступа к тестируемой машине.
 
 # PoC Video
-![]([my_video.mov](https://github.com/photonepoch/1C-as-Initial-Access/raw/refs/heads/main/PoC.mp4))
+![]([https://github.com/photonepoch/1C-as-Initial-Access/raw/refs/heads/main/PoC.mp4])
 
 ## Мануал
 
