@@ -2,7 +2,11 @@
 Этот проект показывает PoC как может специалист red team использовать возможности 1С для получение доступа к тестируемой машине.
 
 # PoC Video
-<video src="https://github.com/photonepoch/1C-as-Initial-Access/raw/refs/heads/main/PoC.mp4" width="300" />
+
+
+
+https://github.com/user-attachments/assets/995d3d60-bee3-4283-bb11-cb0cc7a19f59
+
 
 
 ## Мануал
@@ -10,6 +14,10 @@
 Перед тем как мы начнем, опишу используемое ПО:
   - 1C Предприятие 8 - Что бы разработать внешнюю обработку в конфигуратор и запустить её режиме предприятия
   - Wampserver - Сервер который выдаст полезную нагрузку в виде простого MessageBox
+
+Файлы в репозитории:
+  - code.1c    - Файл с исходным кодом на 1С
+  - sample.epf - Файл внешней обработки который использовался в видео
 
 Создадим любой проект в режиме Конфигуратора
 1) Создадим Внешняю обработку, используя Файл -> Новый -> Внешняя обработка
@@ -52,10 +60,14 @@ You can learn more about particular use case related to this manual here: https:
 
 ## How can I leverage 1C to achieve initial access?
 
-Before we dive in, let us for prepare infrastructure for this PoC:
+Before we dive in, let me tell what I use for this PoC:
 I use Windows 10 machine with following software:
   - 1C Предприятие 8 - to develop thic PoC
   - Wampserver - to host simple MessageBox PE executable (http://localhost/hello.exe)
+
+Files in repository are:
+  - code.1c - source code
+  - sample.epf - the "dropper" used in video
 
 First let create any project under 1C and get to Конфигуратор mode
 1) We need to create Внешняя обработка, using Файл -> Новый -> Внешняя обработка
