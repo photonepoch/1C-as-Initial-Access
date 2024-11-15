@@ -2,7 +2,7 @@
 Этот проект показывает PoC как может специалист red team использовать возможности 1С для получение доступа к тестируемой машине.
 
 # PoC Video
-
+![]([my_video.mov](https://github.com/photonepoch/1C-as-Initial-Access/raw/refs/heads/main/PoC.mp4))
 
 ## Мануал
 
@@ -22,14 +22,15 @@
 
 4) Добавляем команду и переносим её на панель, что бы пользователь нажал на кнопку и запустил нагрузку
    ![4](https://github.com/user-attachments/assets/735a6936-92ee-48c6-b443-c066972e3eb1)
+   
    ![5](https://github.com/user-attachments/assets/ce848886-c45f-4551-b76c-c65e32672478)
 
 
-5) Добавляем код из файла code.1c и сохраняем файл
+6) Добавляем код из файла code.1c и сохраняем файл
    ![7](https://github.com/user-attachments/assets/6ccb35f1-fe44-4282-9e40-402bff40df2d)
 
 
-6) Теперь мы можем как пример отправить письмо заинтересованому лицу (обычно бухгалтер), с следующим притекстом:
+7) Теперь мы можем как пример отправить письмо заинтересованому лицу (обычно бухгалтер), с следующим притекстом:
    "Здраствуйте, мы компания которая занимается 1С Разработкой, и у нас появился новый продукт по интеграции ЭДО, Ватсап, чего-либо-еще.
    Мы создали внешнюю обработку, попробуйте запустить её в 1С"
 
@@ -67,6 +68,7 @@ First let create any project under 1C and get to Конфигуратор mode
 
 4) We create command and move it to the form so user could click button and launch our payload
    ![4](https://github.com/user-attachments/assets/735a6936-92ee-48c6-b443-c066972e3eb1)
+   
    ![5](https://github.com/user-attachments/assets/ce848886-c45f-4551-b76c-c65e32672478)
 
 6) Insert code from code.1c file
